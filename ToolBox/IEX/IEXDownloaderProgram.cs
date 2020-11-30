@@ -74,7 +74,8 @@ namespace QuantConnect.ToolBox.IEX
             {
                 Log.Error(err);
             }
-            Console.ReadLine();
+            // No readline needed
+            // Console.ReadLine();
         }
     }
 }

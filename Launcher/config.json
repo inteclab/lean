@@ -11,15 +11,26 @@
   // algorithm class selector
   "algorithm-type-name": "BasicTemplateFrameworkAlgorithm",
 
-  // Algorithm language selector - options CSharp, FSharp, VisualBasic, Python, Java
-  "algorithm-language": "Python",
+  // Algorithm language selector - options CSharp, Python
+  "algorithm-language": "CSharp",
 
   //Physical DLL location
+<<<<<<< HEAD
   //"algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
   "algorithm-location": "../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py",
   //"algorithm-location": "QuantConnect.Algorithm.FSharp.dll",
   //"algorithm-location": "QuantConnect.Algorithm.VisualBasic.dll",
   //"algorithm-location": "QuantConnect.Algorithm.Java.dll",
+||||||| 474c5cd89
+  "algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
+  //"algorithm-location": "../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py",
+  //"algorithm-location": "QuantConnect.Algorithm.FSharp.dll",
+  //"algorithm-location": "QuantConnect.Algorithm.VisualBasic.dll",
+  //"algorithm-location": "QuantConnect.Algorithm.Java.dll",
+=======
+  "algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
+  //"algorithm-location": "../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py"
+>>>>>>> eb1181f5f7b4c2082496a6dde4f6db7eb92a5679
 
   //Research notebook
   //"composer-dll-directory": ".",
